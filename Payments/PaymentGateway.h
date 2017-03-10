@@ -15,6 +15,7 @@
 - (void) processPaymentAmountThroughProtocol: (NSInteger) amount;
 - (BOOL) canProcessPayment;
 
+//Added an optional method in protocol
 @optional
 -(void) transactionComplete;
 
